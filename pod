@@ -1,1 +1,2 @@
 group of containers is called pods
+pods are used to deployment purpose
