@@ -13,9 +13,9 @@ pipeline{
                 git credentialsId: 'javahome2', url: 'https://github.com/Bhageerath20/myweb.git'
             }
         }
-        stage("Maven Build"){
+        stage("maven Build"){
             steps{
-                sh "Mvn clean sonar:sonar package"
+                sh "mvn clean sonar:sonar package"
                 
             }
         }
